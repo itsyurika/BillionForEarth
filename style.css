@@ -1,0 +1,94 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+*:visited {
+    text-decoration: none;
+}
+
+img {
+    width: 100%
+}
+
+body {
+
+    
+}
+
+#mainNav {
+    display: flex;
+    background-color: darkslategray;
+    color: #FFF
+}
+
+.nav__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFF;
+   
+}
+
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+    padding: 45px;
+    background-image: url(https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+    background-size:cover;
+    box-shadow:inset 0 0 0 2000px rgba(35, 61, 58, 0.7);
+    /* just putting random photo for now to see */
+    /* Awesome */
+    margin: auto;
+    overflow: visible;
+}
+
+.wrapper {
+    z-index: 1;
+}
+
+.cloud {
+    position: absolute;
+    z-index: 0;
+    top: 200px;
+}
+
+#hero .emailInput {
+    padding: 10px 20px;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+#hero .joinButton {
+    padding: 10px 20px;
+    margin: 30px 0;
+    border-radius: 5px;
+    
+}
+
+
+.mountain {
+    position: absolute;
+    bottom: 50px;
+    z-index: 2;
+}
+
+.footer__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer__link {
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
